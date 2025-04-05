@@ -1,11 +1,20 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 
+@font-face {
+  font-family: 'FelinaT26 Gothic'; /* Replace with your font's name */
+  src: url('../webfonts/FelinaT26 Gothic Regular.otf') format('opentype'); /* Replace with the path to your font */
+}
+
 body {
   background-color: #1e1e1e;
   color: #f8f9fa;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'FelinaT26 Gothic', Verdana, Geneva, Tahoma, sans-serif;
+}
+
 a {
   text-decoration: none;
 }
