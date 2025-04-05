@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
+@import url("https://fonts.google.com/specimen/Open+Sans");
 
 @font-face {
   font-family: 'FelinaT26 Gothic'; /* Replace with your font's name */
@@ -9,6 +10,7 @@
 body {
   background-color: #1e1e1e;
   color: #f8f9fa;
+  font-family: 'Open Sans';
 }
 
 h1, h2, h3, h4, h5, h6 {
